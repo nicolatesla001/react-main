@@ -7,7 +7,7 @@ const UserInfo = ({user,setUserIdForPost}) => {
             <div>Email: {user.email}</div>
             <div>Phone: {user.phone}</div>
             <div>Website: {user.website}</div>
-            <input type="button" value="show post" onClick={()=>setUserIdForPost(user.id)}/>
+            <input type="button" value="show posts" onClick={()=>setUserIdForPost(user.id)}/>
         </div>
     );
 };

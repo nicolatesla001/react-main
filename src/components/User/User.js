@@ -6,7 +6,7 @@ const User = ({user, setUser, setUserIdForPost}) => {
     return (
         <div>
             {user.id}-{user.name}-{user.username}
-            <input type="button" value="show info" onClick={click}/>
+            <input type="button" value="show user" onClick={click}/>
         </div>
     );
 };
